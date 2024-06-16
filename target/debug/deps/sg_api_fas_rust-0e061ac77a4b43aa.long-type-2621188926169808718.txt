@@ -1,0 +1,1 @@
+fn(axum::extract::State<FiltersService>, axum::extract::Path<std::string::String>) -> impl Future<Output = std::result::Result<axum::Json<std::option::Option<{type error}>>, error::Error>> {get_filters}

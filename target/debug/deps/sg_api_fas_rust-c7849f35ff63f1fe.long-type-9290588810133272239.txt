@@ -1,0 +1,1 @@
+fn(Json<api::filters::LoginPayload>) -> impl Future<Output = std::result::Result<Json<{type error}>, error::Error>> {api::filters::handle_login}

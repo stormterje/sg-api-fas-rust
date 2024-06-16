@@ -1,0 +1,1 @@
+fn(axum::extract::State<FiltersService>, axum::extract::Path<std::string::String>) -> impl Future<Output = (reqwest::StatusCode, axum::Json<Filters>)> {get_filters}
