@@ -1,1 +1,0 @@
-fn(Query<locations::LocationsByFiltersParams>) -> impl Future<Output = impl IntoResponse> {handle_locations_by_filter}

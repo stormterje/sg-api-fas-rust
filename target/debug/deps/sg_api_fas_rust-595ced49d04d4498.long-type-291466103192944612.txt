@@ -1,1 +1,0 @@
-fn(axum::extract::Path<std::string::String>) -> std::result::Result<Json<Value>, error::Error> {handle_filters_all}
